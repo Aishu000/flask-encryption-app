@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: flask-encryption-app
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free
+    autoDeploy: tru
+    
